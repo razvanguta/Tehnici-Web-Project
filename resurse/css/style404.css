@@ -1,0 +1,12 @@
+body{
+background-image: url("/imagini/rupt.jpg");
+background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+p{
+	color:white;
+	font-size:60px;
+	margin-left:70%;
+	margin-top:10%;
+}

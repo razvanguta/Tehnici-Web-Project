@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ro">
+   <head>
+      <title> Tarife </title>
+	  <meta charset="UTF-8">
+	  <meta name="description" content="Promovarea Bazei Sportive de tenis PerfRackets">
+	  <meta name="keywords" content="Sport, Tenis, Tarife, Inchirieri">
+	  <meta name="author" content="Razvan Guta">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <link rel="shortcut icon" href="/imagini/favi.png">
+      <link rel="stylesheet" type="text/css" href="/css/meniu.css">
+      <link rel="stylesheet" type="text/css" href="/css/stylepg2.css">
+     
+	 <script src="/js/ejs.min.js"> </script>
+	 
+	 
+	  <script src="/js/taskheader.js"> </script>
+	  
+	  <script src="/js/scripttabel.js"> </script>
+   </head>
+	 <body class="container">
+	  <%-  include('../fragmente/header')  %>
+	    <div class="nav"> 
+		  <ul class="main-menu">
+		    <li><a href="/index"> Home </a></li>
+			<li> <a href="#Tarife"> Tarife </a> 
+			  <ul class="sub-menu">
+			    <li> <a href="#Inchirieri"> Inchirieri terenuri </a> </li>
+				<li> <a href="#Antrenamente"> Antrenamnte </a> </li>
+				<li> <a href="#Alte"> Accesorii/Racordari rachete </a> </li>
+			  </ul>
+			  </li>
+			<li> <a href="/proiectpg3">Contact</a>
+			<li id="new"> <a href="/InregUser">Inregistrare</a>
+		   </ul>
+		  </div>
+	 <main>
+	   <section id="Inchirieri">
+	    
+	     <h2>Inchirieri </h2>
+		    <p class="alb"> Pretul de inchiriere al terenurilor difera in functie de intervalul orar al zilei</p>
+			<p class="prog"> <strong> Program </strong> <br/> <strong> 07:00-23:00 </strong> </p>
+			<table>
+			   <caption> Program inchiriere terenuri </caption>
+			     <thead> 
+				   <tr> 
+				     <th> Interval </th>
+					 <th> 07:00-12:59 </th>
+					 <th> 13:00-16:59 </th>
+					 <th> 17:00-23:00 </th>
+					</tr>
+				  </thead>
+			      <tbody>
+				    <tr> 
+					  <th> Pret </th>
+					  <th> 40 lei/h </th>
+					  <th> 35 lei/h </th>
+					  <th> 45 lei/h </th>
+					 </tr>
+					 <tr>
+					 <th colspan="4"> Pret pentru terenul pe iarba: +60 lei/h </th>
+					 </tr>
+					 <tr> 
+					   <th colspan="4"> Pret pentru terenurile indoor(doar cand e pornita incalzirea electrica): +15 lei/h </th>
+					 </tr>
+					 <tr>
+					  <th colspan="4"> Pret nocturna: +20 lei/h </th>
+					  </tr>
+				  </tbody>
+			</table>
+			<p> Pretul abonamentului pentru inchirierea terenurilor de tenis in sezonul cald (aprilie-octombrie) este de 250 de lei, reprezentand 8 ore pe o perioada de 1 luna, indiferent de intervalul orar, adaugandu-se pretul de 20lei/h atunci cand este necesara aprinderea instalatiei de iluminat (nu se inchiriaza la abonament terenul pe iarba). </p>
+		    <p> Pretul abonamentului pentru inchirierea terenurilor de tenis in sezonul rece (noiembrie-martie) este de 300 de lei, reprezentand 8 ore pe o periada de 1 luna,	indiferent de intervalul orar, adaugandu-se pretul de 20lei/h atunci cand este necesara  aprinderea instalatiei de iluminat si pretul de 15lei/h atunci cand este nevoie de aprinderea instalatiei de incalzirea in sali. </p>		
+			<p> Pretul pentru abonamentul lunar pentru sala de fitness este de 180 lei/luna cu intrare nelimitata in intervalul orar 07:00-23:00. </p>
+			<p> Pretul pentru abonamentul lunar pentru piscina interioara este de 170 lei, reprezentand 10 sedinte pe un interval de 20 de zile. </p>			
+	   </section>
+	   <section id="Antrenamente">
+	     
+		 <h2> Antrenamente </h2>
+		 <p> Pretul antrenamentelor difera in functie de criteriile de performanta si de varsta</p>
+			<table>
+			   <caption> Program inchiriere terenuri </caption>
+			     <thead> 
+				   <tr> 
+				     <th> Tip </th>
+					 <th> Initiere copii(sub 15 ani) </th>
+					 <th> Initiere adulti </th>
+					 <th> Mentinere copii(sub 15 ani) </th>
+					 <th> Mentinere adulti </th>
+					 <th> Performanta copii(sub 15 ani) </th>
+					 <th> Performanta adulti </th>
+					</tr>
+				  </thead>
+			      <tbody>
+				    <tr> 
+					  <th> Pret </th>
+					  <th> 250 lei/5 sedinte </th>
+					  <th> 300 lei/5 sedinte  </th>
+					  <th> 300 lei/5 sedinte </th>
+					  <th> 350 lei/5 sedinte </th>
+					  <th> 1200lei/12 sedinte  </th>
+					  <th> 5900 lei/20 sedinte </th>
+					 </tr>
+				  </tbody>
+				  <tfoot>
+				   <tr> 
+				   <th colspan="7"> <strong> o sedinta reprezinta 1 ora si 45 de minute </strong></th>
+				  </tfoot>  
+			</table>
+	   </section>
+	   <section id="Alte"> 
+	   <h2> Accesorii/Racordari </h2>
+		<p class="alb"> Tarifele anumitor articole necesare jocului de tenis pe care clubul nostru le poate oferi</p>
+		<p class="alb"> Pretul racordarii unei rachete este de 50 de lei. </p>
+		<label id="casutatext"> Introdu un produs dupa nume:
+		<input id="text" type="text">
+	   </label>
+	   <button id="preia">Cauta produs</button>
+	   <br>
+	   <br>
+	   <button id="cresc">Sorteaza produsele dupa pret crescator</button>
+	   <button id="desc">Sorteaza produsele dupa pret descrescator</button>
+	   <button id="calc">Calculeaza suma produselor de pe pagina</button>
+	   <button id="reset1">Reseteaza tabelul la forma initiala</button>
+	   <p id="sum"></p>
+	  
+	
+	   <br/>
+	   <label id="a">Afiseaza racordajele
+		<input id="i_check1" name="gr_chck" checked value="20" type="checkbox"/>
+	</label>
+	<br/>
+	<label id="a">Afiseaza rachetele
+		<input id="i_check2" name="gr_chck" checked value="20" type="checkbox"/>
+	</label>
+	<br/>
+	<label id="a">Afiseaza gentile de tenis
+		<input id="i_check3" name="gr_chck" checked value="20" type="checkbox"/>
+	</label>
+	<br/>
+	<label id="a">Afiseaza minigi/vibrastop
+		<input id="i_check5" name="gr_chck"  checked value="20" type="checkbox"/>
+	</label>
+   	 <br>
+	 <br>
+	 <br>
+	   <div id="tproduse">
+	   
+	  </div>
+	
+	   </section>
+	 </main>
+	 	
+	 <%- include('../fragmente/footer')  %>
+	 </body>
+     
+</html>

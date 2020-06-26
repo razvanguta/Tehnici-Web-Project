@@ -1,0 +1,66 @@
+{
+  "lastId": 5,
+  "jucatori": [
+    {
+      "id": 1,
+      "nume": "Popescu",
+      "prenume": "Ion",
+      "varsta": "23",
+      "participant_la_turnee": "true",
+      "data": "2020-05-20T16:44:56.920Z",
+      "nivel_de_joc": "avansat",
+      "rol": "user",
+      "tip_de_joc": "serviciu-vole, backhand agresiv",
+      "dorinte": [ "profesionist" ]
+    },
+    {
+      "id": 2,
+      "nume": "Ionescu",
+      "prenume": "Gigel",
+      "varsta": "10",
+      "participant_la_turnee": "false",
+      "data": "2020-05-20T16:47:52.920Z",
+      "nivel_de_joc": "incepator",
+      "rol": "user",
+      "tip_de_joc": "slice, vole",
+      "dorinte": [ "profesionist" ]
+    },
+    {
+      "id": 3,
+      "nume": "Georgescu",
+      "prenume": "Mihaela",
+      "varsta": "20",
+      "participant_la_turnee": "true",
+      "data": "2020-06-26T16:44:56.920Z",
+      "nivel_de_joc": "avansat",
+      "rol": "user",
+      "tip_de_joc": "agilitate, forehand agresiv",
+      "dorinte": [ "profesionist" ]
+    },
+    {
+      "id": 4,
+      "nume": "Mihailescu",
+      "prenume": "Mihai",
+      "varsta": "15",
+      "participant_la_turnee": "true",
+      "data": "2020-07-20T16:44:56.920Z",
+      "nivel_de_joc": "intermediar",
+      "rol": "user",
+      "tip_de_joc": "serviciu-vole, slice",
+      "dorinte": [ "profesionist" ]
+    },
+
+    {
+      "id": 5,
+      "nume": "Ihascu",
+      "prenume": "Mihaiscu",
+      "varsta": "18",
+      "participant_la_turnee": "false",
+      "data_inscriere": "2021-07-20T16:44:56.920Z",
+      "nivel_de_joc": "incepator",
+      "rol": "user",
+      "tip_de_joc": "serviciu, backhand agresiv",
+      "dorinte": [ "profesionist" ]
+    }
+  ]
+}

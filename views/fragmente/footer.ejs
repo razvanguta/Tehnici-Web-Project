@@ -1,0 +1,27 @@
+    <footer>
+	 <a href="#">Inapoi la inceputul paginii</a> <br/>
+	 <a href="/jucatori">Jucatori</a> <br/>
+	 <small>Copyright © 2020-prezent, Clubul de tenis "PerfRackets"</small>
+	 </footer>
+	 <script>
+	 
+    var count=0;
+	var h = document.getElementsByTagName("header");
+    var p = document.getElementsByTagName("body");
+	var f = document.getElementsByTagName("footer");
+	for(var i = 0; i < h.length; i++)
+    {
+        count += h[i].innerText.split(/[^A-Za-z0-9]/).length;
+    }
+    for(var i = 0; i < p.length; i++)
+    {
+        count += p[i].innerText.split(/[^A-Za-z0-9]/).length;
+    }
+	for(var i = 0; i < f.length; i++)
+    {
+        count += f[i].innerText.split(/[^A-Za-z0-9]/).length;
+    }
+ console.log(document.getElementsByTagName("footer")[0]);
+ document.getElementsByTagName("footer")[0].innerHTML+="Numarul de cuvinte este " + count;
+
+</script>

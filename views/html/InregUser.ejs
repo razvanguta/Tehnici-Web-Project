@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ro">
+	<head>
+		<title>LOGARE</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Promovarea Bazei Sportive de tenis PerfRackets">
+		<meta name="keywords" content="Sport, Tenis, Performanta">
+		<meta name="author" content="Guta Razvan-Alexandru">
+	<link rel="shortcut icon" href="/imagini/favi.png">
+			  <link rel="stylesheet" type="text/css" href="/css/meniu.css">
+			  <link rel="stylesheet" type="text/css" href="/css/styleUser.css">
+	</head>
+	
+	<body>
+	
+		<%-  include('../fragmente/header')  %>
+		<div class="nav"> 
+		  <ul class="main-menu">
+		    <li><a href="/index"> Home </a></li>
+			<li> <a href="/proiectpg2"> Tarife </a>  </li>
+			<li> <a href="/proiectpg3">Contact</a>
+			<li id="new"> <a href="/InregUser">Inregistrare</a>
+		   </ul>
+		<main>
+    <div class="afisaj">
+        <h1>Inregistrare utilizator</h1>
+		<% if(!locals.rsstatus) { %><!-- verific daca status e definit-->
+		<form id ="form" method="post" action="/inreg" class="date"> <!-- daca nu pun action atunci actionul default este pagina curenta -->
+			<p>
+			<label>
+				Username: <input type="text" name="username" value="" placeholder="novakdjokovic">
+			</label>
+			</p>
+			<p>
+			<label>
+				Nume: <input type="text" name="nume" value="" placeholder="Djokovic Novak">
+			</label>
+			</p>
+			<p>
+			</p>
+			<p>
+			<label>
+		      Tip de joc: <input type="text" name="tip_de_joc" value="" size="50" placeholder="backhand agresiv, slice">
+			</label>
+			</p>
+			<p>
+			<label>
+				Parola: <input type="password" name="parola" value="" placeholder="Password">
+			</label>
+			</p>
+			<p>
+			<label>
+				Reintroduceti parola: <input type="password" name="rparola" value="" placeholder="Password">
+			</label>
+			</p>
+			<p>
+			<label>
+				Email: <input type="text" name="email" value=""  size="50" placeholder="ceva@gmail.com">
+			</label>
+			</p>
+			<p>
+			<label>
+				Nivel de joc: <input type="text" name="nivel_de_joc"   size="50" placeholder="profesionist">
+			</label>
+			</p>
+		    <p>
+			Dorinte: 
+			<label>
+				Profesionist: <input type="checkbox" name="dorinte" value="prof">
+			</label> 
+			<label>
+				Intretinere: <input type="checkbox" name="dorinte" value="intr">
+			</label> 
+			<label>
+				Invatare: <input type="checkbox" name="dorinte" value="invatare">
+			</label>
+			</p>			
+			<p>		
+			<input id="but"  type="submit" value="Submit">
+			</p>
+		</form>
+		<% } else if(rsstatus=="ok"){ %>
+			<p>Date introduse</p>
+		<% } else {%>
+			<p>Eroare</p>
+		<% } %>
+    </div>
+</main>
+		
+		<%-  include('../fragmente/footer')  %>
+
+	</body>
+
+</html>

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ro">
+   <head>
+      <title> Clubul de tenis "PerfRackets" </title>
+	  
+	  <meta charset="UTF-8">
+	  <meta name="description" content="Promovarea Bazei Sportive de tenis PerfRackets">
+	  <meta name="keywords" content="Sport, Tenis, Performanta">
+	  <meta name="author" content="Razvan Guta">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="/imagini/favi.png">
+	  <link rel="stylesheet" type="text/css" href="/css/meniu.css">
+      <link rel="stylesheet" type="text/css" href="/css/stylepg1.css">
+	<script src="/js/taskindex.js"> </script>
+	<script src="/js/taskheader.js"> </script>
+   </head>
+	 <body>
+	 
+	 <%-  include('../fragmente/header')  %>
+	    <div class="nav"> 
+		  <ul class="main-menu">
+		    <li><a href="#Acasa"> Home </a>
+			  <ul class="sub-menu">
+			    <li> <a href="#Despre"> Despre noi </a> </li>
+				<li> <a href="#Facilitati"> Facilitati </a> </li>
+				<li> <a href="#Performante"> Performante </a> </li>
+			  </ul>
+			  </li>
+			<li> <a href="/proiectpg2"> Tarife </a> </li>
+			<li> <a href="/proiectpg3">Contact</a> </li>
+		    <li id="new"> <a href="/InregUser">Inregistrare</a>
+		  </ul>
+		   </div>
+	 <main>
+	 <button id="btn" onclick="myFunction()">Ascunde imagini</button>
+	   <section id="Despre">
+	    
+	     <h2> Despre noi </h2>
+		 <div class="col">
+		   <p id="ap1"> Clubul de tenis "PerfRackets", situat intr-o locatie linistita a agitatului oras Bucuresti, se poate lauda cu o baza completa pentru inalta performanta, dar si pentru jocul de agrement.<br/>
+			Acest complex este ridicat de la 0 cu ajutorul unor experti internationali, dar si al unor legende din tenisul romanesc si mondial. Va asteptam cu mult drag sa fiti alaturi de echipa noastra. </p>
+	        <figure>
+				<img id="imag" title="Hot shot" class="hai" src="imagini/im4.jpg" alt="Drum" height="200" width="250">
+			</figure>
+		</div>
+	   </section>
+	   <section id="Facilitati">
+	     
+		 <h2> Facilitati </h2>
+		 <div class="col">
+		<p id="ap2"> Pe langa cele 5 terenuri exterioare pe zgura, complexul dispune de 3 terenuri acoperite pentru sezonul de iarna, 2 avand greenset ca suprafata de joc, iar 1 din ele zgura. </p>
+		<figure>
+				<img id="imag2" class="hai" title="Teren zgura" src="imagini/im1.jpg" alt="Drum" height="200" width="250">
+				
+			</figure>
+		<p> <strong> In premiera pentru Romania, baza detine un teren de tenis pe iarba naturala, destinat pregatirii jucatorilor profesionisti pentru turneele din sezonul pe iarba </strong>, culminand cu marele slam de la Wimbledon(Anglia). De asemenea, baza dispune de 3 sali de fitness pentru pregatirea fizica a jucatorilor, locuri de cazare si o piscina interioara. </p>
+       <figure>
+				<img id="imag3" title="Teren hard" class="hai" src="imagini/im5.jpg" alt="Drum" height="200" width="300">
+
+			</figure>
+			</div>
+	   </section>
+	   <section id="Performante"> 
+	   <h2> Performante </h2>
+	   <div class="col">
+	  <p> Clubul de tenis "PerfRackets" este cel mai <em> premiat </em> club de tenis din Romania si din Europa de Est, avand in palmares atat premii la turnee nationale foarte importante, dar si internationale. Deci, 20 de campioni nationali( pentru toate categoriile de varsta), 25 de turnee de tip ITF castigate, dar si 5 titluri ATP si WTA. Aceste premii sunt castigate atat la proba de simplu, cat si la cea de dublu. </p>
+	   <figure>
+				<img id="imag4" title="Premii" src="imagini/download.jpg" alt="Drum" height="200" width="300">
+				
+	</figure>
+		</div>
+	   </section>
+	   
+	   <div id="intrebare">
+	   <p> Care este numele clubului nostru de tenis? <br> Aveti timp 3 secunde de cand va focusati pe caseta text!</p> <br>
+	   <input type="text" id="rrr"> <br>
+	   <button id="submit"> Raspunde </button> <br>
+	   <p id="feed"> </p>
+	   </div> 
+	    
+		
+		
+		
+		
+		
+		
+		
+		<script>
+function myFunction() {
+  
+  var x = document.getElementById("imag");
+  var y = document.getElementById("imag2");
+  var z = document.getElementById("imag3");
+  var t = document.getElementById("imag4");
+  if (x.style.display === "none") {
+  document.getElementById("btn").innerHTML="Ascunde imagini";
+    x.style.display = "block";
+	
+  } else {
+    x.style.display = "none";
+	document.getElementById("btn").innerHTML="Afiseaza imagini";
+  }
+  
+  if (y.style.display === "none") {
+    y.style.display = "block";
+  } else {
+    y.style.display = "none";
+  }
+  
+  if (z.style.display === "none") {
+    z.style.display = "block";
+  } else {
+    z.style.display = "none";
+  }
+  
+  if (t.style.display === "none") {
+    t.style.display = "block";
+  } else {
+    t.style.display = "none";
+  }
+}
+var i = 0;
+var txt = document.getElementById("ap1").innerHTML;
+document.getElementById("ap1").innerHTML="";
+var speed = 500;
+var inc=0;
+var sf=1;
+function typeWriter(inc,sf) {
+  while(txt[sf+1]!=undefined)
+    {
+    if(txt[sf]==" ")
+         break;	
+	sf++;}
+  if (i < sf) {
+  
+    document.getElementById("ap1").innerHTML += txt.substr(inc,sf-inc);
+    i++;
+    setTimeout(typeWriter, speed, sf,sf+1);
+  }
+}
+typeWriter(inc,sf);
+i=0;
+txt2 = document.getElementById("ap2").innerHTML;
+document.getElementById("ap2").innerHTML="";
+inc=0;
+sf=1;
+function typeWriter2(inc,sf) {
+while(txt2[sf+1]!=undefined){
+  if(txt2[sf]==" ")
+         break;	
+	sf++;}
+  if (i < sf) {
+  
+    document.getElementById("ap2").innerHTML += txt2.substr(inc,sf-inc);
+    i++;
+    setTimeout(typeWriter2, speed, sf,sf+1);
+  }
+}
+typeWriter2(inc,sf);
+
+document.getElementById("rrr").onclick = function()
+{
+  var now=new Date();
+  setTimeout(function(){ document.getElementById("intrebare").style.display="none";alert("Timpul intrebarii pe pagina a expirat");  }, 3000);
+}
+document.getElementById("submit").onclick = function()
+{
+  var rasp=document.getElementById("rrr").value;
+  if(rasp=="PerfRackets")
+    document.getElementById("feed").innerHTML="Felicitari!";
+  else
+	{
+	document.getElementById("feed").innerHTML="Ai gresit!";
+	}
+
+}
+
+
+
+</script>
+	
+
+
+
+	</main>
+	 <%- include('../fragmente/footer')  %>
+	 </body>
+     
+</html>
+

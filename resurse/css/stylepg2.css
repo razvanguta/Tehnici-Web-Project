@@ -1,0 +1,171 @@
+#afisJson{
+	
+	color:white;
+}
+button{
+	border-color: #42a5f5;
+    background: linear-gradient(to bottom, #90caf9 0%, #64b5f6 100%);
+    box-shadow: inset 0 1px #e3f2fd, 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+caption{
+	color:yellow;
+}
+label{
+	color:white;
+}
+header{
+	color:white;
+	text-align:center;
+}
+body{
+	background-image:url('https://upload.wikimedia.org/wikipedia/commons/4/41/Closeup_of_a_tennis_ball_%282%29.jpg');
+}
+p:hover{
+	
+	font-weight:bold;
+	color:white;
+}
+footer{
+	font-size:1.2rem;
+	text-align: center;
+	text-shadow: 1px 1px 3px white;
+	
+}
+div .template_produse{
+	margin-left:10%;
+	margin-right:10%;
+	border: 3px solid green;
+	text-align: center;
+	
+}
+#sum
+{
+	text-align:center;
+
+font-size:20px;	
+}
+	
+.template_produse:hover{
+	box-shadow:4px 4px 4px black;
+	background-color: gray;
+}
+button{
+	margin-left:6%;
+	
+}
+#a
+{
+   margin-left:43%;	
+}
+div .template_produse p{
+	font-size: 18px;
+}
+div .template_produse p:nth-child(1)::before{
+	color:lightblue;
+	content: "Nume produs: "
+}
+div .template_produse p:nth-child(2)::before{
+	color:lightblue;
+	content: "Descriere produs: "
+}
+div .template_produse p:nth-child(3)::before{
+	color:lightblue;
+	content: "Pret: "
+}
+div .template_produse p:nth-child(4)::before{
+	color:lightblue;
+	content: "Produs recomandat pentru amatori: "
+}
+{
+	display: grid;
+}
+p{
+color: white;
+}
+h2{
+	color:red;
+}
+table {
+  border-collapse: collapse;
+  width:100%;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th:nth-child(even) {
+	background-color: gray;
+}
+
+th:nth-child(odd) {
+	background-color: white;
+}
+
+th {
+  height: 50px;
+}
+
+p[class="prog"]{
+	color:yellow;
+	font-style:italic;
+}
+th:hover {
+	background-color: lightblue;
+	cursor: cell;
+}
+@media screen and (max-width:700px){
+	body{
+	background-image:url('https://upload.wikimedia.org/wikipedia/commons/4/41/Closeup_of_a_tennis_ball_%282%29.jpg');
+	background-position:top;
+}
+        
+		p{
+		float:none;
+		color:blue;
+		width:100%;
+		}
+		p.alb{
+			color:white;
+		}
+		figure{
+		width:100%;
+		}
+	}
+	
+@media screen and (max-width: 760px)  {
+body{
+	background-image:url('https://upload.wikimedia.org/wikipedia/commons/4/41/Closeup_of_a_tennis_ball_%282%29.jpg');
+}
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+	
+	thead tr { 
+		position: absolute;
+		
+	}
+	
+	tr { border: 1px solid #ccc; }
+	
+	td { 
+		border: none;
+		border-bottom: 1px solid #eee; 
+	}
+	
+	td:before { 
+		position: absolute;
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+	}
+	tbody>tr{
+		font-size: 70%;
+		text-align: right;
+	}
+	
+	
+	
+}

@@ -1,0 +1,66 @@
+p{
+	font-size:140%;
+}
+caption{
+	color:yellow;
+}
+header{
+	text-align:center;
+}
+h2{
+	background-color:white;
+	width:100px;
+}
+aside{
+	color:white;
+}
+body{
+background-image: url('https://previews.123rf.com/images/vadymvdrobot/vadymvdrobot1708/vadymvdrobot170801761/84913571-tennis-player-with-phone-looking-at-phone-front-view.jpg');
+background-position:top;
+}
+p::first-letter {
+  font-size: 180%;
+}
+p:nth-of-type(2) strong{
+	cursor:crosshair;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation: mymove 3s 2;
+  color:white;
+  background-color:black;
+}
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 200px;}
+}
+
+aside, p:nth-of-type(1), section li{
+	cursor:crosshair;
+  height: 100%;
+  animation-name: example;
+  animation-duration: 3s;
+}
+
+@keyframes example {
+  from {}
+  to {background-color: yellow;}
+}
+
+@media screen and (max-width:700px){
+	body{
+background-image: url('https://previews.123rf.com/images/vadymvdrobot/vadymvdrobot1708/vadymvdrobot170801761/84913571-tennis-player-with-phone-looking-at-phone-front-view.jpg');
+}
+aside{
+	color:white;
+}
+		p{
+		opacity:0.7;
+		background-color:white;
+		float:none;
+		width:100%;
+		}
+		figure{
+		width:100%;
+		}
+	}

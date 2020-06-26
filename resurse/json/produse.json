@@ -1,0 +1,117 @@
+﻿{
+  "lastId": 15,
+  "produse": [
+    {
+      "id": 1,
+      "numeprodus": "Racordaj Luxilon 4G 1.25mm",
+      "descriereprodus": "Racordaj proiectat pentru a oferi flexibilitate, pentru un feel mai bun al loviturii",
+      "pret": 120,
+      "recomandatincepatori": true
+    },
+    {
+      "id": 2,
+      "numeprodus": "Racordaj Luxilon Big Banger Alu Power 1.25mm",
+      "descriereprodus": "Compozitia unica poli-eter-eter reda oscilatia racordajului de aproape zero, crescand forta",
+      "pret": 100,
+      "recomandatincepatori": false
+    },
+    {
+      "id": 3,
+      "numeprodus": "Racordaj Wilson Revolve Spin 16 1.30mm",
+      "descriereprodus": "Revolve Spin este acoperit cu material UHMW pentru un snap-back mai bun, oferind astfel racordajului un potential de spin mai bun decat va veti astepta.",
+      "pret": 70,
+      "recomandatincepatori": true
+    },
+    {
+      "id": 4,
+      "numeprodus": "Racordaj Wilson LXN Duo Feel 1.25mm",
+      "descriereprodus": "Duo Power de la Wilson este un sir hibrid care imbina NXT Power cu Luxilon Element pentru a crea un racordaj explozibil. Pentru un raspuns ideal, reduceti tensiunea la Luxilon Element cu cel putin 10% pentru o putere si o performanta superioara.",
+      "pret": 41,
+      "recomandatincepatori": false
+    },
+    {
+      "id": 5,
+      "numeprodus": "Racordaj Sintetic Gut PPS 125mm",
+      "descriereprodus": "Racordaj cu invelis multifilament si miez monofilament. Beneficii: forta si control",
+      "pret": 45,
+      "recomandatincepatori": true
+    },
+    {
+      "id": 6,
+      "numeprodus": "Racordaj Tecnifibre BlackCode 1.24mm/1.30mm",
+      "descriereprodus": "Are o forma pentagonala si a fost creat pentru jucatorii care isi doresc topspin si confort.",
+      "pret": 75,
+      "recomandatincepatori": false
+    },
+    {
+      "id": 7,
+      "numeprodus": "Racordaj Tecnifibre Razor Code 1.25mm",
+      "descriereprodus": "Racordaj Tecnifibre Razor Code inseamna precizia remarcabila , confort si putere.",
+      "pret": 95,
+      "recomandatincepatori": true
+    },
+    {
+      "id": 8,
+      "numeprodus": "Racheta Tecnifibre BULLIT 23",
+      "descriereprodus": "Racheta de tenis Tecnifibre Bullit 23 este durabila si usor de manevrat, ideala pentru copii de 6-8 ani. Greutate 200 +/- 7g Lungime 58,6 cm / 23",
+      "pret": 200,
+      "recomandatincepatori": true
+    },
+    {
+      "id": 9,
+      "numeprodus": "Racordaj Tecnifibre Razor Code 1.25mm",
+      "descriereprodus": "Racordaj Tecnifibre Razor Code inseamna precizia remarcabila , confort si putere.",
+      "pret": 95,
+      "recomandatincepatori": true
+    },
+    {
+      "id": 9,
+      "numeprodus": "Racheta Tecnifibre T-FIGHT 265 XTC",
+      "descriereprodus": "Tecnifibre T-FIGHT 265 XTC este o racheta de tenis foarte usoara si manevrabila pe care o recomandam juniorilor sau celor care sunt in cautarea unei rachete usor de manevrat .Greutate 265 grameMarime cap 645 cm² / 100 sq.in.Balans 330mmGrosime rama 23mmNumar corzi 16×20",
+      "pret": 780,
+      "recomandatincepatori": false
+    },
+    {
+      "id": 10,
+      "numeprodus": "Racheta Tecnifibre T-Flash 300 Power Stab",
+      "descriereprodus": "TECNIFIBRE T-Flash 300 Power Stab este o racheta de tenis ce confera putere, manevrabilitate si stabilitate.Greutate 300 grame Marime cap 645 cm² / 100 sq.in.Balans 320mmGrosime rama 23mm Numar corzi 16×19",
+      "pret": 800,
+      "recomandatincepatori": true
+    },
+    {
+      "id": 11,
+      "numeprodus": "Geanta Tenis Head CORE 3R PRO",
+      "descriereprodus": "Geantă de tenis Head CORE 3R PRO, în care poți stoca fără probleme până la 2 rachete. Dispune de un compartiment principal, de spațiu special pentru depunerea mingilor a a altor lucruri mărunte și permite transportul pe umeri.",
+      "pret": 120,
+      "recomandatincepatori": true
+    },
+    {
+      "id": 12,
+      "numeprodus": "Geanta tenis Wilson Roland Garros Team 3 Racket Bag",
+      "descriereprodus": "Geanta sport oferă suficient spațiu de depozitare pentru trei rachete de tenis. Geanta are un compartiment și două buzunare laterale spațioase.",
+      "pret": 220,
+      "recomandatincepatori": true
+    },
+    {
+      "id": 13,
+      "numeprodus": "Geanta tenis Tecnifibre Team ATP ENDURANCE 12R",
+      "descriereprodus": "Este suficient de incapatoare pentru 12 rachete de tenis si accesorii . Termobag Tecnifibre Team ATP ENDURANCE 12R are buzunar pentru haine ude sau incaltaminte murdara , compartimente pentru diferite accesorii si compartimente laterale pentru rachete de tenis",
+      "pret": 315,
+      "recomandatincepatori": false
+    },
+    {
+      "id": 14,
+      "numeprodus": "Set mingi tenis Head Tour",
+      "descriereprodus": "Set 3 mingi Tehnologia Encore pentru o mai buna durabilitate; Tehnologia Smart-Optik pentru o vizibilitate mai buna",
+      "pret": 28,
+      "recomandatincepatori": true
+    },
+    {
+      "id": 15,
+      "numeprodus": "Vibrastop Tecnifibre ATP",
+      "descriereprodus": "Pentru reducerea vibratiilor rachetei din timpul loviturii",
+      "pret": 20,
+      "recomandatincepatori": true
+    }
+  ]
+}
